@@ -25,6 +25,4 @@ public class NeoWsClientProperties {
     public String getApiKey() {
         return apiKey;
     }
-
-
 }

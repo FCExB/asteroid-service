@@ -8,6 +8,4 @@ import java.util.List;
 import java.util.Map;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public record FeedResponse(
-        @JsonProperty("near_earth_objects") Map<Date, List<Asteroid>> nearEarthObjects){
-}
+public record FeedResponse(@JsonProperty("near_earth_objects") Map<Date, List<Asteroid>> nearEarthObjects){ }
