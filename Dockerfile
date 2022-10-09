@@ -6,7 +6,6 @@ COPY .mvn/ .mvn
 COPY mvnw pom.xml ./
 # Force maven to download all dependencies so that they are cached
 RUN ./mvnw verify --fail-never
-#RUN ./mvnw dependency:resolve
 COPY src ./src
 
 FROM base as test
