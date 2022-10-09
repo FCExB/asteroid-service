@@ -1,9 +1,7 @@
 package com.spond.asteroidservice.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
 
-@Configuration
 @ConfigurationProperties(prefix = "neows")
 public class NeoWsClientProperties {
 
