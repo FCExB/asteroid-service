@@ -19,5 +19,5 @@ RUN ./mvnw package
 
 FROM $JAVA_IMAGE as prod
 EXPOSE 8080
-COPY --from=build /app/target/asterod-service-*.jar /asteroid-service.jar
+COPY --from=build /app/target/asteroid-service-*.jar /asteroid-service.jar
 CMD java -jar asteroid-service.jar

@@ -8,7 +8,7 @@ First you must replace the value of `neows.apiKey` in `application.properties` w
 
 TODO: Add support for, and/or test, reading this property from environment variables (or some other key management system) in the prod image, rather than setting it in a properties file.
 
-### Development:
+### Development
 `docker-compose up` 
 - Runs service in development mode
 - Or optionally run `docker-compose up --build` to pickup new changes.
@@ -17,7 +17,7 @@ TODO: Add support for, and/or test, reading this property from environment varia
 `docker build -t asteroid-service-tests --target test .` 
 - Runs all unit tests
 
-### Deploy
+### Build
 `docker build -t asteroid-service --target prod .`
  - Builds an image that can be deployed to production.
 
