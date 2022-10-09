@@ -1,12 +1,9 @@
 package com.spond.asteroidservice;
 
-import config.NeoWsClientProperties;
+import com.spond.asteroidservice.config.NeoWsClientProperties;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @EnableConfigurationProperties(NeoWsClientProperties.class)

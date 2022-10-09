@@ -2,7 +2,7 @@ package com.spond.asteroidservice.service;
 
 import com.spond.asteroidservice.model.neows.Asteroid;
 import com.spond.asteroidservice.model.neows.FeedResponse;
-import config.NeoWsClientProperties;
+import com.spond.asteroidservice.config.NeoWsClientProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
